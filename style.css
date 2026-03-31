@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f0ff;
+}
+
+/* HEADER */
+header {
+    background: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* NAV */
+nav {
+    background: #4b0082;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECTIONS */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.purple {
+    background: #e6ccff;
+}
+
+/* PROFILE */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #6a0dad;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* LINKS */
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px;
+}
+
+.links a {
+    color: #6a0dad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
